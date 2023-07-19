@@ -1,0 +1,144 @@
+@charset "UTF-8";
+    
+@font-face {
+    font-family: 'teste';
+    src: url(fonts/NEW\ YORK.otf), url(fonts/NEW\ YORK.ttf) ;
+}
+@font-face {
+    font-family: 'teste2';
+    src: url(fonts/Milky\ Mania.otf) format(opentype), url(fonts/Milky\ Mania.ttf) format(truetype);
+}
+
+body {
+    background-color: #4776FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #071F66;
+}
+h1#principal {
+    text-align: center;
+    background-color:#071F66;
+    color: #ffff;
+    border-radius: 11px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+}
+h2 {
+    color: #0D37C0;
+    
+}
+.basico {
+    background-color: rgb(199, 235, 235);
+    width: 170px;
+    padding: 2.5px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.562);
+}
+.intermediario {
+    background-color:aqua;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2.5px;
+    width: 230px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.562);
+}
+.intermediario2 {
+    background-color:aqua;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2.5px;
+    width: 240px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.562);
+}
+.avancado {
+    background-color: rgba(184, 236, 236, 0.87);
+    width: 200px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 2.5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.562);
+}
+.aprendendo {
+    font-family: 'teste2';
+    font-weight: lighter;
+    
+   
+}
+.aprendendo1 {
+    font-family: 'teste2';
+    font-weight: lighter;
+   
+   
+    
+   
+}
+a:hover {
+    
+    color:white;
+    background-color:#071F66; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+   
+
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    text-indent: 15px;
+    text-align: justify;
+}
+abbr {
+    text-decoration: none;
+    
+   
+}
+
+.especial:hover {
+    background-color: white;
+    color: #0D37C0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 6px;
+    width: 101px
+   
+}
+.especial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+
+    
+}
+
+div > p {
+    display: none;
+}
+div:hover >p{
+    display: block;
+    
+}
+.menup {
+    border-radius: 3px;
+    padding: 5px;
+    height: 359px;
+    width: 97px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    background-color: rgb(243, 235, 235);
+    color: black;
+}

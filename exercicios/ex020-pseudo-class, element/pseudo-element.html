@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: rgb(85, 83, 83);
+           
+        }
+        a:hover {
+           
+            text-decoration: underline;
+           
+
+        }
+        .especial::before {
+         content: '⇒' ;
+        }
+        .especial::after {
+            content: '⇐';
+            
+        }
+        .especial {
+            background-color: rgb(181, 150, 211);
+            color: white;
+
+        }
+        a:active {
+        background-color: yellowgreen;
+        border-radius: 10px;
+        padding: 5px;
+       
+        }
+      
+   
+        
+    </style>
+</head>
+<body>
+    <h1>Personalisando links </h1>
+    <ul>
+        <li><a href="https://www.youtube.com/">Youtube</a> </li>
+        <li><a href="https://www.youtube.com/watch?v=jl_iqSpcwTk&list=RDKc380wXOsK4&index=6" target="_blank" class="especial" >Musica</a></li>
+        <li><a href="https://www.youtube.com/watch?v=d_HlPboLRL8" class="especial" target="_blank">Outra musica</a></li>
+        <li><a href="https://rastreamento.correios.com.br/app/index.php">coreios</a></li>
+    </ul>
+    
+</body>
+</html>
