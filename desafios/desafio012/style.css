@@ -11,21 +11,21 @@ html,body {
     height: 100vh;
 }
 header {
-    height: 150px;
-    padding: 10px;
+    
+    height: 170;
     background-color: black;
     color: white;
     text-align: center;
-    margin: -10px -15px 0px ;
+   
 }
 header > h1 {
-    margin-top: 50px;
+    padding-top: 50px;
     font-family: 'Passion One', cursive;
     font-weight: 700;
     font-size: 5vw;
 }
-header> p {
-    margin-bottom: 50px;
+header >p {
+    padding-bottom: 50px;
 }
 header a {
     text-decoration: none;
@@ -40,12 +40,14 @@ header a:hover {
 main p {
     font-family: 'Sriracha', cursive;
     padding: 25px;
-    font-size: 3vw;
+    font-size: 3.5vw;
     
+}
+section {
+    box-shadow: inset 2px 2px 6px  rgba(0, 0, 0, 0.616);
 }
 .joaninha {
     
-    color: white;
     padding: 10px;
     background:black url('imagens/background001.jpg') center right no-repeat fixed;
     background-size: cover;
@@ -55,7 +57,7 @@ main p {
     
 }
 .livro {
-    color: white;
+   
     margin-top: 30px;
     background:black url('imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
@@ -68,17 +70,8 @@ section p {
     color: white;
     background-color: rgba(0, 0, 0, 0.39);
     padding: 10px;
-    height: 220px;
-    width: 220px;
-
-    
+    text-shadow: 1px 1px 2px black;
 }
-
-
-
-
-
-
 
 footer {
     padding: 4px;
