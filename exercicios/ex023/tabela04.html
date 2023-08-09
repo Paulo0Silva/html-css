@@ -9,7 +9,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         table {
-            width: 400px;
+            width: 600px;
             border-collapse: collapse;
         }
         th,td {
@@ -25,48 +25,53 @@
             color: white;
             
         }
+        #contanier {
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
    <h1>usando colgroun</h1>
-    <table>
-        <colgroup>
-            <col class="nome" span="">
-            <col class="idade">
-            <col class="sexo">
-            <col class="profissao">
-        </colgroup>
-        <caption>colgroun</caption>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-            <th>Sexo</th>
-            <th class="profissao">Profissao</th>
-        </tr>
-        <tr>
-            <td>Maria</td>
-            <td>47</td>
-            <td>F</td>
-            <td class="profissao">Vendedora</td>
-        </tr>
-        <tr>
-            <td>Juliana</td>
-            <td>23</td>
-            <td>F</td>
-            <td class="profissao">Veterinaria</td>
-        </tr>
-        <tr>
-            <td>Paulo</td>
-            <td>19</td>
-            <td>M</td>
-            <td class="profissao">Programador</td>
-        </tr>
-        <tr>
-            <td>Neymar</td>
-            <td>28</td>
-            <td>M</td>
-            <td class="profissao">Jogador</td>
-        </tr>
-    </table>
+    <div id="contanier">
+        <table>
+            <colgroup>
+                <col class="nome" span="">
+                <col class="idade">
+                <col class="sexo">
+                <col class="profissao">
+            </colgroup>
+            <caption>colgroun</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Sexo</th>
+                <th class="profissao">Profissao</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>47</td>
+                <td>F</td>
+                <td class="profissao">Vendedora</td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>23</td>
+                <td>F</td>
+                <td class="profissao">Veterinaria</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>19</td>
+                <td>M</td>
+                <td class="profissao">Programador</td>
+            </tr>
+            <tr>
+                <td>Neymar</td>
+                <td>28</td>
+                <td>M</td>
+                <td class="profissao">Jogador</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
