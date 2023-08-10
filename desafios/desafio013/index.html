@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       body {
+        height: 98vh;
+        background-image: url('imagens/fundo-madeira.jpg');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       #home {
+        
+        display: inline-block;
+        position: relative;
+        background-image: url('imagens/frame-iphone.png');
+        
+        background-repeat: no-repeat;
+        height: 629px;
+        width: 310px;
+        margin: auto;
+       }
+       .tela-inicial {
+        
+        position: absolute;
+        background-image: url('imagens/tela-home.jpg');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 265px;
+        height: 540px;
+        
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+       }
+       iframe {
+        width: 276px;
+        height: 471px;
+
+       }
+       iframe {
+        position: absolute;
+        border: none;
+        left: 50%;
+        top: 50%;
+        
+        transform: translate(-50%, -50%);
+       }
+       img {
+        border-radius: 100%;
+        width: 90px;
+       }
+       img:hover {
+        border: 2px solid white;
+        transition-duration: 0.7s;
+       }
+       .menu {
+        display: inline-block;
+        margin-left: 150px;
+        width: 20px;
+       }
+    </style>
+</head>
+<body>
+ 
+    <div id="home">
+        <div class="tela-inicial">
+            <iframe src="" name="teste" scrolling="yes"></iframe>
+        </div>
+   </div>
+   <div class="menu">
+    <a href="index.html"><img src="imagens/logo-home.jpg" alt=""></a>
+    
+    <a href="pag02.html" target="teste"><img src="imagens/logo-youtube.jpg" alt=""></a>
+    
+    <a href="pag03.html" target="teste"><img src="imagens/logo-instagram.jpg" alt=""></a>
+    
+    <a href="pag04.html" target="teste"><img src="imagens/logo-twitter.jpg" alt=""></a>
+   
+    <a href="pag05.html" target="teste"><img src="imagens/logo-facebook.jpg" alt=""></a>
+    
+    <a href="pag06.html" target="teste"><img src="imagens/logo-github.jpg" alt=""></a>
+    </div>
+   
+</body>
+</html>
