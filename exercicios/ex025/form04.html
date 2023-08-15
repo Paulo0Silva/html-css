@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset {
+            width: 300px;
+            border: 1px solid rgba(0, 0, 0, 0.336);
+            background-color: rgb(226, 217, 219);
+        }
+        legend {
+            text-align: center;
+        }
+        input {
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            padding: 4px;        
+            border-radius: 7px;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome" required>
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" placeholder="Email" required>
+            </p>
+            <p>
+                <!-- aaikdguwhdhwudhao -->
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" placeholder="(**)****-****" required>
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </fieldset>
+</body>
+</html>
