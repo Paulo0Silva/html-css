@@ -1,0 +1,15 @@
+@charset "UTF-8";
+nav {
+    display: none;
+}
+article {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+article::after {
+    content: 'Esse site foi feito por Paulo nos estudos de html e css';
+}
+p {
+    line-height: 40px;
+}
