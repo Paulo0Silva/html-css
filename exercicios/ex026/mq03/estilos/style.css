@@ -37,7 +37,7 @@
         background-position: left bottom;
     }
 }
-
+/* versao impressora */
 @media print {
     html, body {
         background-image: url('../imagens/cev-landscape.jpg');
