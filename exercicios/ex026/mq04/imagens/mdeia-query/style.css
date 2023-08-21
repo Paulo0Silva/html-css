@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen {
+    #celular {
+        margin: auto;
+    }
+    #tablet {
+        display: none;
+    }
+    #impressa {
+        display: none;
+    }
+    #pc {
+        display: none;
+    }
+    #televisao {
+        display: none;
+    }
+}
