@@ -1,8 +1,106 @@
 @charset "UTF-8";
 
-@media screen {
+/* configuraçao das medias queries 
+pequenas telas : ate 600px
+celular: de 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+telas grandes: 1200px
+
+*/
+@media print { /* VERSAO IMPRESSA  */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    body {
+        background-image: url(../back-print.jpg);
+    }
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+    img {
+        display: block;
+    }
     #celular {
+        display: none;
+    }
+    #tablet {
+        display: none;
+    }
+    #impressa {
+        display: block;
         margin: auto;
+    }
+    #pc {
+        display: none;
+    }
+    #telas-grandes {
+        display: none;
+       
+    }
+}
+
+ @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+    body {
+        background-image: url(../back-tablet.jpg);
+    }
+    img {
+        display: block;
+    }
+    #celular {
+        display: none;
+    }
+    #tablet {
+        display: block;
+        margin: auto;
+    }
+    #impressa {
+        display: none;
+    }
+    #pc {
+        display: none;
+    }
+    #telas-grandes {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+    img {
+        display: block;
+    }
+    #celular {
+        display: none;
+    }
+    #tablet {
+        display: none;
+    }
+    #impressa {
+        display: none;
+    }
+    #pc {
+        display:block;
+        margin: auto;
+    }
+    #telas-grandes {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){ /*TELAS GRANDE (TV)*/
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+    img {
+        display: block;
+    }
+    #celular {
+        display: none;
     }
     #tablet {
         display: none;
@@ -13,7 +111,8 @@
     #pc {
         display: none;
     }
-    #televisao {
-        display: none;
+    #telas-grandes {
+        display: block;
+        margin: auto;
     }
 }

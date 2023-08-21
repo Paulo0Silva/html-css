@@ -34,3 +34,18 @@ h1 {
 img {
     display: block;
 }
+#celular {
+    margin: auto;
+}
+#tablet {
+    display: none;
+}
+#impressa {
+    display: none;
+}
+#pc {
+    display: none;
+}
+#telas-grandes {
+    display: none;
+}
