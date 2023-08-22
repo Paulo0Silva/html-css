@@ -36,7 +36,7 @@ li {
     transition: 0.8s;
 }
 menu a {
-    display: block;
+    display:block;
     padding: 10px;
     background-color: rgb(66, 66, 66);
     text-decoration: none;
